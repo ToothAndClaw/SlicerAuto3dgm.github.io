@@ -1,2 +1,2 @@
-# SlicerAuto3dgm.github.io
-A website for slicer auto3dgm
+The official website for Slicer Auto3dgm
+
