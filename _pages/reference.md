@@ -16,7 +16,7 @@ redirect_from:
 * Gao et al. (2017): [link](https://onlinelibrary.wiley.com/doi/abs/10.1002/ar.23700)
 * Gao et al. (2018): [link](https://arxiv.org/pdf/1807.11887.pdf)
 
-## Applications (e.g):
+## Applications (e.g.)
 * Turner et al. (2014): [link](https://doi.org/10.1093/imaiai/iau011)
 * Sieffert et al. (2015): [link](https://peerj.com/articles/1036/)
 * Hsiang et al. (2016): [link](http://rstb.royalsocietypublishing.org/content/371/1691/20150227)
@@ -28,3 +28,7 @@ redirect_from:
 * Boyer et al. (2018): [link](https://www.sciencedirect.com/science/article/pii/S0047248417305134)
 * Gunnell et al. (2018): [link](https://www.nature.com/articles/s41467-018-05648-w)
 * Wang et al. (2019): [link](https://www.biorxiv.org/content/10.1101/701391v1)
+
+## Auto3dgm in other platforms
+* [Matlab](https://github.com/JuliaWinchester/auto3dgm-matlab-gorgon)
+* [R](https://github.com/sayanmuk/Auto3DGM)

@@ -6,14 +6,11 @@ main:
   - title: "How to use"
     url: /how-to-use/  
 
-  - title: "Gallery"
-    url: /gallery/    
-    
   - title: "References"
     url: /reference/
+
+  - title: "Resources"
+    url: /resource/
     
-  - title: "About"
-    url: /about/
-    
-  - title: "Contact us"
+   - title: "Contact us"
     url: /contact/
