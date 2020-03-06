@@ -10,9 +10,9 @@ redirect_from:
 {% include base_path %}
 
 ## PI 
-Doug Boyer \s\s
-Associate Professor \s\s
-Department of Evolutionary Anthropology \s\s
+Doug Boyer\
+Associate Professor    
+Department of Evolutionary Anthropology <br/>
 Duke University \s\s
 Email: [doug.boyer@duke.edu](mailto:doug.boyer@duke.edu) \s\s
 Website: [http://www.dougmboyer.com](http://www.dougmboyer.com) 
