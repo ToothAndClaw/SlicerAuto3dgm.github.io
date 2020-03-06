@@ -22,14 +22,8 @@ pip_install("mosek")
 ```
 4. Manually install `Auto3dgm` module in 3D Slicer.  
 
-    * In 3D Slicer, select Extension Wizard
+    * In 3D Slicer, select Extension Wizard. [image demo](<img src="/images/01.png">)
 
-    <img src="/images/01.png">
+    * Click *Select Extension* and choose the folder auto3dgmSlicerExtension. [image demo](<img src="/images/02.png">)
 
-    * Click *Select Extension* and choose the folder auto3dgmSlicerExtension
-
-    <img src="/images/02.png">
-
-    * Click *yes* to load the `Auto3dgm` and the `webviewer` modules
-
-    <img src="/images/03.png">
+    * Click *yes* to load the `Auto3dgm` and the `webviewer` modules. [image demo]( <img src="/images/03.png">)

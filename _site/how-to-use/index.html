@@ -19,7 +19,7 @@
 
 
 
-<title>Publications - Slicer Auto3dgm</title>
+<title>How to use - Slicer Auto3dgm</title>
 
 
 
@@ -29,11 +29,11 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Slicer Auto3dgm">
-<meta property="og:title" content="Publications">
+<meta property="og:title" content="How to use">
 
 
-  <link rel="canonical" href="https://ToothAndClaw.github.io/publications/">
-  <meta property="og:url" content="https://ToothAndClaw.github.io/publications/">
+  <link rel="canonical" href="https://ToothAndClaw.github.io/how-to-use/">
+  <meta property="og:url" content="https://ToothAndClaw.github.io/how-to-use/">
 
 
 
@@ -245,9 +245,66 @@
 
   <div class="archive">
     
-      <h1 class="page__title">Publications</h1>
+      <h1 class="page__title">How to use</h1>
     
-    
+    <h2 id="1-auto3dgm-ui-in-slicer">1. Auto3dgm UI in Slicer</h2>
+<p>The auto3dgm UI consists of three components:</p>
+<ul>
+  <li><strong>setup</strong>: load data and specifiy parameters used in the auto3dgm algorithm</li>
+  <li><strong>run</strong>: subsample and align the data</li>
+  <li><strong>visualize</strong>: the aligned data in a pop-up window</li>
+</ul>
+
+<p><img src="/images/auto3dgm_UI.png" /></p>
+
+<h2 id="2-path-setups-and-parameters">2. Path setups and parameters</h2>
+<p>In the <strong>setup</strong> tab, specify</p>
+<ul>
+  <li>input folder: location where you saved the downsampled gorilla skull dataset, e.g.,
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/Users/ToothAndClaw/Data/Gorilla_Skulls
+</code></pre></div>    </div>
+  </li>
+  <li>output folder: location where you want to save the aligned data and the pseudolandmarks, e.g.,
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/Users/ToothAndClaw/Results/
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>Then click on <strong>Load Data</strong>.</p>
+
+<p>As we discussed in the previous lecture, auto3dgm uses a two-phase analysis for shape alignment. The algorithm first subsamples two sets of pseudolandmarks for each shape, and then aligns the subsampled points. In the algorithm, we will need to specify how many points we will subsample in each phase.  Due to time constraint in this tutorial, let’s only use <strong>20 points for phase 1</strong> and <strong>40 points for phase 2</strong>. In general, a few hundred points will give pretty good shape alignment. The more points we use, the better the results.</p>
+
+<p><img src="Images/autoinput.png" /></p>
+
+<p>There are some other parameters in the auto3dgm UI. In general, you can leave them as they are.</p>
+<ul>
+  <li><strong>Maximum iterations</strong>: the max number of alignment</li>
+  <li><strong>Allow reflection</strong>: if selected, mirror reflection will be allowed to optimize alignment.</li>
+  <li><strong>Subsampling</strong>:</li>
+  <li><em>Farthest point sampling</em> (FPS): select evenly-spreading points</li>
+  <li><em>Gaussian process landmarks</em> (GPL): select feature-aware points</li>
+  <li><em>FPS + GPL hybrid</em>: select feature-aware points and complemented with evenly-spreading points for optimal speed and accuracy</li>
+  <li><strong>Optional FPS seed</strong>: specify the first point to be selected in FPS. If not specified, the algorithm will use the first one.</li>
+  <li><strong>Hybrid GPL points</strong>: number of feature-aware points to be used in the analysis. The number should be smaller than phase 1 points.</li>
+  <li><strong>Processing</strong>: options for parallel computing. This will be implemented in future release.</li>
+</ul>
+
+<h2 id="3-run-auto3dgm">3. Run auto3dgm</h2>
+<p>In the <strong>run</strong> tab, you can either run the entire analysis or run each step separately. Here I just click “run all steps”. The aligned data and the registered pseudolandmarks (in .fcsv files) will be saved in the specified output folder.</p>
+
+<p>This will take about 5 minutes.</p>
+
+<h2 id="4-visualize-aligned-data">4. Visualize aligned data</h2>
+<p>The <strong>visualize</strong> tab allows you to see how the aligned data look like.</p>
+
+<p>Click on <strong>Start mesh visualization viewer</strong>.</p>
+
+<p>You can select either <strong>visualize phase 1 alignment</strong> or <strong>visualize phase 2 alignment</strong>.
+The aligned shapes will be shown in a pop-up browser window.</p>
+
+<p>:bangbang: Very Important :bangbang: make sure you click on <strong>Stop mesh visualization viewer</strong> button after you finish the visualization.</p>
+
+<p>Launch your browser and direct it to ‘’ http://localhost:8000/index.html ‘’</p>
 
   </div>
 </div>
