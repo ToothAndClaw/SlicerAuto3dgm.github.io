@@ -14,7 +14,7 @@ description              : &description "personal description"
 url                      : https://ToothAndClaw.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   :  "profile.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Tooth and Claw"
   avatar           : "profile.png"
-  bio              : "We develop automated algorithms and softwares for morphological studies."
-  location         : "Location"
+  bio              : "We are a group of mathematicians, statisticians and biologists who develop automated algorithms and softwares for morphological studies."
+  location         : "Duke University"
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Tooth and Claw"
+  github           : "ToothAndClaw"
   google_plus      :
   keybase          :
   instagram        :
