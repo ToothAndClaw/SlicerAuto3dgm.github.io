@@ -17,21 +17,21 @@ Duke University <br/>
 Email: [doug.boyer@duke.edu](mailto:doug.boyer@duke.edu) <br/>
 Website: [http://www.dougmboyer.com](http://www.dougmboyer.com) <br/>
 
-<br/>
 ## Team members
+
 Shan Shan <br/>
 Postdoctoral Researcher <br/>
 Department of Mathematics <br/>
 Duke University <br/>
 Email: [shan.shan@duke.edu](mailto:shan.shan@duke.edu) <br/>
-Website: [https://sshanshans.github.io](https://sshanshans.github.io) <br/>
+Website: [https://sshanshans.github.io](https://sshanshans.github.io)
 
 Henry Kirveslahti <br/>
 Graduate Student <br/>
 Department of Statistics <br/>
 Duke University <br/>
 Email: [henry.kirveslahti@duke.edu](mailto:henry.kirveslahti@duke.edu) <br/>
-Website: [http://www2.stat.duke.edu/~hmk16](http://www2.stat.duke.edu/~hmk16/index.html) <br/>
+Website: [http://www2.stat.duke.edu/~hmk16](http://www2.stat.duke.edu/~hmk16/index.html)
 
 Brandon Guo <br/>
 Undergraduate Student <br/>
