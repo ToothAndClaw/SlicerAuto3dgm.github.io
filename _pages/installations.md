@@ -10,14 +10,11 @@ redirect_from:
 {% include base_path %}
 
 1. Download and Install 3D Slicer: [website](https://download.slicer.org/)
-2. Download the 'Auto3dgm' module. 
-
-Type in the terminal: 
+2. Download the 'Auto3dgm' module by typing in the terminal: 
 ```
 git clone --recursive https://github.com/ToothAndClaw/auto3dgmSlicerExtension
 ```
 3. Open 3D Slicer and install the required dependencies for Auto3dgm. 
-
 Type in the Python interactor: 
 ```
 pip_install("scipy")
