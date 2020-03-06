@@ -28,7 +28,7 @@ Then click on **Load Data**.
 
 As we discussed in the previous lecture, auto3dgm uses a two-phase analysis for shape alignment. The algorithm first subsamples two sets of pseudolandmarks for each shape, and then aligns the subsampled points. In the algorithm, we will need to specify how many points we will subsample in each phase.  Due to time constraint in this tutorial, let's only use **20 points for phase 1** and **40 points for phase 2**. In general, a few hundred points will give pretty good shape alignment. The more points we use, the better the results. 
 
-<img src="Images/autoinput.png">
+<img src="/images/autoinput.png">
 
 There are some other parameters in the auto3dgm UI. In general, you can leave them as they are. 
 * **Maximum iterations**: the max number of alignment 
@@ -56,4 +56,7 @@ The aligned shapes will be shown in a pop-up browser window.
 
 Very Importantly, make sure you click on **Stop mesh visualization viewer** button after you finish the visualization. 
 
-Launch your browser and direct it to '' http://localhost:8000/index.html ''
+Launch your browser and direct it to `http://localhost:8000/index.html`
+
+## 5. Output
+You can find the aligned pseudolandmarks (.fcsv files) in the output folder you specified Step 2. Go to folder *Phase 2* and then folder *aligned_landmarks*.
