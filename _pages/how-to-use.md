@@ -54,6 +54,6 @@ Click on **Start mesh visualization viewer**.
 You can select either **visualize phase 1 alignment** or **visualize phase 2 alignment**.
 The aligned shapes will be shown in a pop-up browser window. 
 
-:bangbang: Very Important :bangbang: make sure you click on **Stop mesh visualization viewer** button after you finish the visualization. 
+Very Importantly, make sure you click on **Stop mesh visualization viewer** button after you finish the visualization. 
 
 Launch your browser and direct it to '' http://localhost:8000/index.html ''
