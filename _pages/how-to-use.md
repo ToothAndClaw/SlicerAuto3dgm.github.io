@@ -11,7 +11,7 @@ The auto3dgm UI consists of three components:
 * **run**: subsample and align the data
 * **visualize**: the aligned data in a pop-up window
 
-<img src="/images/auto3dgm_UI.png">
+<img src="/images/auto3dgmUI.png">
 
 ## 2. Path setups and parameters
 In the **setup** tab, specify 
