@@ -10,38 +10,39 @@ redirect_from:
 {% include base_path %}
 
 ## PI 
-Doug Boyer\
-Associate Professor    
+Doug Boyer <br/>
+Associate Professor <br/>
 Department of Evolutionary Anthropology <br/>
-Duke University \s\s
-Email: [doug.boyer@duke.edu](mailto:doug.boyer@duke.edu) \s\s
-Website: [http://www.dougmboyer.com](http://www.dougmboyer.com) 
+Duke University <br/>
+Email: [doug.boyer@duke.edu](mailto:doug.boyer@duke.edu) <br/>
+Website: [http://www.dougmboyer.com](http://www.dougmboyer.com) <br/>
 
+<br/>
 ## Team members
-Shan Shan \s\s
-Postdoctoral Researcher \s\s
-Department of Mathematics \s\s
-Duke University \s\s
-Email: [shan.shan@duke.edu](mailto:shan.shan@duke.edu) \s\s
-Website: [https://sshanshans.github.io](https://sshanshans.github.io) 
+Shan Shan <br/>
+Postdoctoral Researcher <br/>
+Department of Mathematics <br/>
+Duke University <br/>
+Email: [shan.shan@duke.edu](mailto:shan.shan@duke.edu) <br/>
+Website: [https://sshanshans.github.io](https://sshanshans.github.io) <br/>
 
-Henry Kirveslahti \s\s
-Graduate Student \s\s
-Department of Statistics \s\s
-Duke University \s\s
-Email: [henry.kirveslahti@duke.edu](mailto:henry.kirveslahti@duke.edu) \s\s
-Website: [http://www2.stat.duke.edu/~hmk16](http://www2.stat.duke.edu/~hmk16/index.html)
+Henry Kirveslahti <br/>
+Graduate Student <br/>
+Department of Statistics <br/>
+Duke University <br/>
+Email: [henry.kirveslahti@duke.edu](mailto:henry.kirveslahti@duke.edu) <br/>
+Website: [http://www2.stat.duke.edu/~hmk16](http://www2.stat.duke.edu/~hmk16/index.html) <br/>
 
-Brandon Guo \s\s
-Undergraduate Student \s\s
-Major in Computer Science \s\s
-Duke University \s\s
-Email: [brandon.guo@duke.edu](mailto:brandon.guo@duke.edu)
+Brandon Guo <br/>
+Undergraduate Student <br/>
+Major in Computer Science <br/>
+Duke University <br/>
+Email: [brandon.guo@duke.edu](mailto:brandon.guo@duke.edu) <br/>
 
-Julie Winchester \s\s
-Senior Research Scientist \s\s
-Department of Evolutionary Anthropology \s\s
-Duke University \s\s
-Email: [julie.winchester@duke.edu](mailto:julie.winchester@duke.edu)
+Julie Winchester <br/>
+Senior Research Scientist <br/>
+Department of Evolutionary Anthropology <br/>
+Duke University <br/>
+Email: [julie.winchester@duke.edu](mailto:julie.winchester@duke.edu) 
 
 
