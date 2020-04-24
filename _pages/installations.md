@@ -9,18 +9,32 @@ redirect_from:
 
 {% include base_path %}
 
-1. Download and Install 3D Slicer: [website](https://download.slicer.org/)
-2. Download the `Auto3dgm` module by typing in the terminal: 
+Download and Install 3D Slicer: [https://download.slicer.org/](https://download.slicer.org/)
+
+## Install `Auto3dgm` extension via Extension Manager in Slicer
+
+1. Open `Extension Manager`. [image demo](<img src="/images/em.\
+png">)
+ 
+2. Choose the `Auto3dgm` extension, and click on "Install".
+
+3. After the extension is installed, restart slicer. The `Auto3dgm` extension is available to use. 
+
+For more information on how to install an extension using the Extension Manager in Slicer, please visit [https://bit.ly/SlicerExtensionManager](https://www.slicer.org/wiki/Documentation/4.3/SlicerApplication/ExtensionsManager#Installing_an_extension)
+
+## Install `Auto3dgm` beta version from source code
+
+1. Open a terminal and type the following to download the `Auto3dgm` beta version: 
 ```
 git clone --recursive https://github.com/ToothAndClaw/auto3dgmSlicerExtension
 ```
-3. Open 3D Slicer and install the required dependencies for `Auto3dgm`. 
+2. Open 3D Slicer and install the required dependencies for `Auto3dgm`. 
 Type in the Python interactor: 
 ```
 pip_install("scipy")
 pip_install("mosek")
 ```
-4. Manually install `Auto3dgm` module in 3D Slicer.  
+3. Manually install `Auto3dgm` module in 3D Slicer.  
 
     * In 3D Slicer, select Extension Wizard. [image demo](<img src="/images/01.png">)
 
