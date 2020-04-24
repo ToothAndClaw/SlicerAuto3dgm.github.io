@@ -19,11 +19,9 @@ Download example data from [https://bit.ly/ExampleData]()
 
 In the **setup** tab, specify 
 * input folder: location where you saved the example data set, e.g., 
-
 /Users/ToothAndClaw/Data/ExampleData
 
 * output folder: location where you want to save the aligned data and the pseudolandmarks, e.g., 
-
 /Users/ToothAndClaw/Results/
 
 Then click on **Load Data**. Make sure the data is loaded properly.
