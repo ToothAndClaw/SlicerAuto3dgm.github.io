@@ -13,31 +13,31 @@ The auto3dgm UI consists of three components:
 
 <img src="/images/auto3dgmUI.png">
 
-## 2. Path setups and parameters
+## 2. Download example data and load data in Slicer
+
+Download example data from [https://bit.ly/ExampleData]()
+
 In the **setup** tab, specify 
-* input folder: location where you saved the downsampled gorilla skull dataset, e.g., 
+* input folder: location where you saved the example data set, e.g., 
 ```
-/Users/ToothAndClaw/Data/Gorilla_Skulls
+/Users/ToothAndClaw/Data/ExampleData
 ```
 * output folder: location where you want to save the aligned data and the pseudolandmarks, e.g., 
 ```
 /Users/ToothAndClaw/Results/
 ```
 
-Then click on **Load Data**.
+Then click on **Load Data**. Make sure the data is loaded properly.
 
-As we discussed in the previous lecture, auto3dgm uses a two-phase analysis for shape alignment. The algorithm first subsamples two sets of pseudolandmarks for each shape, and then aligns the subsampled points. In the algorithm, we will need to specify how many points we will subsample in each phase.  Due to time constraint in this tutorial, let's only use **20 points for phase 1** and **40 points for phase 2**. In general, a few hundred points will give pretty good shape alignment. The more points we use, the better the results. 
+<img src="/images/loaddata.png">
+
+3. Set up parameters
+Auto3dgm uses a two-phase analysis for shape alignment. The algorithm first subsamples two sets of pseudolandmarks for each shape, and then aligns the subsampled points. In the algorithm, we will need to specify how many points we will subsample in each phase.  The default is set to be **10 points for phase 1** and **40 points for phase 2**. In general, a few hundred points will give pretty good shape alignment. The more points we use, the better the results. 
 
 There are some other parameters in the auto3dgm UI. In general, you can leave them as they are. 
 * **Maximum iterations**: the max number of alignment 
 * **Allow reflection**: if selected, mirror reflection will be allowed to optimize alignment. 
-* **Subsampling**: 
-* *Farthest point sampling* (FPS): select evenly-spreading points
-* *Gaussian process landmarks* (GPL): select feature-aware points
-* *FPS + GPL hybrid*: select feature-aware points and complemented with evenly-spreading points for optimal speed and accuracy
 * **Optional FPS seed**: specify the first point to be selected in FPS. If not specified, the algorithm will use the first one.
-* **Hybrid GPL points**: number of feature-aware points to be used in the analysis. The number should be smaller than phase 1 points. 
-* **Processing**: options for parallel computing. This will be implemented in future release. 
 
 ## 3. Run auto3dgm
 In the **run** tab, you can either run the entire analysis or run each step separately. Here I just click "run all steps". The aligned data and the registered pseudolandmarks (in .fcsv files) will be saved in the specified output folder. 

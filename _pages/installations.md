@@ -13,10 +13,10 @@ Download and Install 3D Slicer: [https://download.slicer.org/](https://download.
 
 ## Install `Auto3dgm` extension via Extension Manager in Slicer
 
-1. Open `Extension Manager`. [image demo](<img src="/images/em.\
+1. In 3D Slicer, go to `View->Extension Manager`. [image demo](<img src="/images/em.\
 png">)
  
-2. Choose the `Auto3dgm` extension, and click on "Install".
+2. In the "Install Extensions" tab, select `Auto3dgm` extension, and click on "Install".
 
 3. After the extension is installed, restart slicer. The `Auto3dgm` extension is available to use. 
 
