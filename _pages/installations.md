@@ -19,8 +19,7 @@ Type in the Python interactor:
 pip_install("mosek")
 ```
 
-2. In 3D Slicer, go to `View->Extension Manager`. [image demo](<img src="/images/em.\
-png">)
+2. In 3D Slicer, go to `View->Extension Manager`. [image demo](https://toothandclaw.github.io/images/em.png)
  
 3. In the "Install Extensions" tab, select `Auto3dgm` extension, and click on "Install".
 
@@ -41,8 +40,8 @@ pip_install("mosek")
 ```
 3. Manually install `Auto3dgm` module in 3D Slicer.  
 
-    * In 3D Slicer, select Extension Wizard. [image demo](<img src="/images/01.png">)
+    * In 3D Slicer, select Extension Wizard. [image demo](https://toothandclaw.github.io/images/01.png)
 
-    * Click *Select Extension* and choose the folder auto3dgmSlicerExtension. [image demo](<img src="/images/02.png">)
+    * Click *Select Extension* and choose the folder auto3dgmSlicerExtension. [image demo](https://toothandclaw.github.io/images/02.png)
 
-    * Click *yes* to load the `Auto3dgm` and the `webviewer` modules. [image demo]( <img src="/images/03.png">)
+    * Click *yes* to load the `Auto3dgm` and the `webviewer` modules. [image demo](https://toothandclaw.github.io/images/03.png)
