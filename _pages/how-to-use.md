@@ -26,8 +26,6 @@ In the **setup** tab, specify
 
 Then click on **Load Data**. Make sure the data is loaded properly.
 
-<img src="/images/loaddata.png">
-
 ## 3. Set up parameters
 Auto3dgm uses a two-phase analysis for shape alignment. The algorithm first subsamples two sets of pseudolandmarks for each shape, and then aligns the subsampled points. In the algorithm, we will need to specify how many points we will subsample in each phase.  The default is set to be **10 points for phase 1** and **40 points for phase 2**. In general, a few hundred points will give pretty good shape alignment. The more points we use, the better the results. 
 
@@ -39,7 +37,7 @@ There are some other parameters in the auto3dgm UI. In general, you can leave th
 ## 4. Run auto3dgm
 In the **run** tab, you can either run the entire analysis or run each step separately. Here I just click "run all steps". The aligned data and the registered pseudolandmarks (in .fcsv files) will be saved in the specified output folder. 
 
-This will take about 5 minutes. 
+This process may take a few minutes. 
 
 ## 5. Visualize aligned data
 The **visualize** tab allows you to see how the aligned data look like. 
@@ -51,7 +49,7 @@ The aligned shapes will be shown in a pop-up browser window.
 
 Very Importantly, make sure you click on **Stop mesh visualization viewer** button after you finish the visualization. 
 
-Launch your browser and direct it to `http://localhost:8000/index.html`
+Alternatively, you could launch your browser and direct it to `http://localhost:8000/index.html`
 
 ## 6. Output
 You can find the aligned pseudolandmarks (.fcsv files) in the output folder you specified Step 2. Go to folder *Phase 2* and then folder *aligned_landmarks*.
