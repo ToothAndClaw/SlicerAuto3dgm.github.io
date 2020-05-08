@@ -47,9 +47,11 @@ Click on **Start mesh visualization viewer**.
 You can select either **visualize phase 1 alignment** or **visualize phase 2 alignment**.
 The aligned shapes will be shown in a pop-up browser window. 
 
+<img src="/images/meshviewer.png">
+
 Very Importantly, make sure you click on **Stop mesh visualization viewer** button after you finish the visualization. 
 
 Alternatively, you could launch your browser and direct it to `http://localhost:8000/index.html`
 
 ## 6. Output
-You can find the aligned pseudolandmarks (.fcsv files) in the output folder you specified Step 2. Go to folder *Phase 2* and then folder *aligned_landmarks*.
+You can find the aligned pseudolandmarks (.fcsv files), aligned meshes (.ply files), rotation matrices (.csv files) and scaling information (.csv files) in the output folder you specified Step 2. 
