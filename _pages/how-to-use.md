@@ -15,7 +15,7 @@ The auto3dgm UI consists of three components:
 
 ## 2. Download example data and load data in Slicer
 
-Download example data from [https://bit.ly/ExampleData]()
+Download example data from [https://bit.ly/ExampleData](https://ToothAndClaw.github.io/files/samples.zip)
 
 In the **setup** tab, specify 
 * input folder: location where you saved the example data set, e.g., 
