@@ -7,7 +7,7 @@ author_profile: true
 
 ## 1. Auto3dgm UI in Slicer
 The auto3dgm UI consists of three components:
-* **setup**: load data and specifiy parameters used in the auto3dgm algorithm
+* **setup**: load data and specify parameters used in the auto3dgm algorithm
 * **run**: subsample and align the data
 * **visualize**: the aligned data in a pop-up window
 
