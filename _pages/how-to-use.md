@@ -54,6 +54,21 @@ Rotate or rescale the displayed meshes by moving your cursor.
 
 <img src="https://media.giphy.com/media/cmNw3n0FZwobw0KPay/giphy.gif">
 
-
 ## 6. Output
-You can find the aligned pseudolandmarks (.fcsv files), aligned meshes (.ply files), rotation matrices (.csv files) and scaling information (.csv files) in the output folder you specified Step 2. 
+The output of each phase (1 and 2) contains four components. 
+
+* aligned (pseudo)landmarks (.fcsv files)
+* aligned meshes (.ply files)
+* rotation (.csv and .h5 files)
+* scale info (.csv and .h5 files)
+* registered landmarks in original subject space (OSS) (.fcsv files)
+
+Here are some examples on how to use the Auto3dgm output:
+
+1. Statistical shape analysis with Auto3dgm landmarks
+
+Use the **GPA** module in the **SlicerMorph** extension on aligned_landmarks or landmarks_OSS for computing mean shape and principal component analyis. Watch [this video](https://www.youtube.com/watch?v=FCeZ2J5Uvcw) to learn how to use the **GPA** module. 
+
+2. Transformation
+
+Use the .h5 files in rotation and scale_info folders to transfrom between the original subject space and the aligned uniformized space. 
