@@ -24,7 +24,9 @@ In the **setup** tab, specify
 * output folder: location where you want to save the aligned data and the pseudolandmarks, e.g., 
 /Users/ToothAndClaw/Results/
 
-Then click on **Load Data**. Make sure the data is loaded properly.
+Then click on **Load Data**. 
+
+Next, click on **Check Mesh Quality**, which finds if there is any NaN-valued vertex in the mesh. If the quality check failed, make sure the data is cleaned before you proceed to the next step. 
 
 ## 3. Set up parameters
 Auto3dgm uses a two-phase analysis for shape alignment. The algorithm first subsamples two sets of pseudolandmarks for each shape, and then aligns the subsampled points. In the algorithm, we will need to specify how many points we will subsample in each phase.  The default is set to be **10 points for phase 1** and **40 points for phase 2**. In general, a few hundred points will give pretty good shape alignment. The more points we use, the better the results. 
@@ -35,23 +37,19 @@ There are some other parameters in the auto3dgm UI. In general, you can leave th
 * **Optional FPS seed**: specify the first point to be selected in FPS. If not specified, the algorithm will use the first one.
 
 ## 4. Run auto3dgm
-In the **run** tab, you can either run the entire analysis or run each step separately. Here I just click "run all steps". The aligned data and the registered pseudolandmarks (in .fcsv files) will be saved in the specified output folder. 
+In the **run** tab, you can either run the entire analysis or run each step separately. Here you can simply click "run all steps". The aligned meshes (in .ply format) and the registered pseudolandmarks (in .fcsv files) will be saved in the specified output folder. 
 
 This process may take a few minutes. 
 
 ## 5. Visualize aligned data
-The **visualize** tab allows you to see how the aligned data look like. 
-
-Click on **Start mesh visualization viewer**. 
+The **visualize** tab allows you to see how the aligned meshes and the registered landmarks look like. 
 
 You can select either **visualize phase 1 alignment** or **visualize phase 2 alignment**.
-The aligned shapes will be shown in a pop-up browser window. 
 
-<img src="/images/meshviewer.png">
+Rotate or rescale the displayed meshes by moving your cursor.
 
-Very Importantly, make sure you click on **Stop mesh visualization viewer** button after you finish the visualization. 
+<img src="https://media.giphy.com/media/LlECGgJCtTiwCPKYwL/giphy.gif">
 
-Alternatively, you could launch your browser and direct it to `http://localhost:8000/index.html`
 
 ## 6. Output
 You can find the aligned pseudolandmarks (.fcsv files), aligned meshes (.ply files), rotation matrices (.csv files) and scaling information (.csv files) in the output folder you specified Step 2. 
