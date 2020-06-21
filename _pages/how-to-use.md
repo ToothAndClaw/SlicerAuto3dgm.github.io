@@ -11,22 +11,26 @@ The auto3dgm UI consists of three components:
 * **run**: subsample and align the data
 * **visualize**: the aligned data in a pop-up window
 
-<img src="/images/auto3dgmUI.png">
+<img src="/images/Auto3dgmUI.png">
 
 ## 2. Download example data and load data in Slicer
 
 Download example data from [https://bit.ly/ExampleData](https://ToothAndClaw.github.io/files/samples.zip)
 
 In the **setup** tab, specify 
-* input folder: location where you saved the example data set, e.g., 
-/Users/ToothAndClaw/Data/ExampleData
+* input folder: location where you saved the example data set
 
-* output folder: location where you want to save the aligned data and the pseudolandmarks, e.g., 
-/Users/ToothAndClaw/Results/
+  e.g., /Users/ToothAndClaw/Data/ExampleData
+
+* output folder: location where you want to save the aligned data and the pseudolandmarks
+
+  e.g., /Users/ToothAndClaw/Results/
 
 Then click on **Load Data**. 
 
 Next, click on **Check Mesh Quality**, which finds if there is any NaN-valued vertex in the mesh. If the quality check failed, make sure the data is cleaned before you proceed to the next step. 
+
+<img src="/images/meshquality.png">
 
 ## 3. Set up parameters
 Auto3dgm uses a two-phase analysis for shape alignment. The algorithm first subsamples two sets of pseudolandmarks for each shape, and then aligns the subsampled points. In the algorithm, we will need to specify how many points we will subsample in each phase.  The default is set to be **10 points for phase 1** and **40 points for phase 2**. In general, a few hundred points will give pretty good shape alignment. The more points we use, the better the results. 
