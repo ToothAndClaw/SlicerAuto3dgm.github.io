@@ -48,7 +48,7 @@ You can select either **visualize phase 1 alignment** or **visualize phase 2 ali
 
 Rotate or rescale the displayed meshes by moving your cursor.
 
-<img src="https://media.giphy.com/media/LlECGgJCtTiwCPKYwL/giphy.gif">
+<img src="https://media.giphy.com/media/cmNw3n0FZwobw0KPay/giphy.gif">
 
 
 ## 6. Output
