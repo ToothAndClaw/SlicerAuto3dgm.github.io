@@ -11,7 +11,7 @@ redirect_from:
 
 Download and Install 3D Slicer: [https://download.slicer.org/](https://download.slicer.org/)
 
-**Important: Please select the Preview version fo 3D Slicer to run auto3dgm.
+**Important: Please select the Preview version fo 3D Slicer to run auto3dgm.**
 
 ## Install `Auto3dgm` extension via Extension Manager in Slicer
 
