@@ -41,9 +41,10 @@ Download and Install the **preview version** of 3D Slicer: [https://download.sli
 
 Follow the path location, and move the `mosek.lic` in the correct `lib` folder. Note there are two lib folders, you want to move the license to the one under `auto3dgm_nazar`. Once you finish this step. The `Auto3dgm` extension is available to use now. 
 
-Many times, the extension version does not reflect the latest development of the code, just like Slicer Stable vs. Slicer Preview. If you want to get the most updated version of `Auto3dgm`, you may use the following steps to download from the source code. 
 
 ## Install `Auto3dgm` beta version from source code
+
+Many times, the extension version does not reflect the latest development of the code, just like Slicer Stable vs. Slicer Preview. If you want to get the most updated version of `Auto3dgm`, you may use the following steps to download from the source code. 
 
 1. Open a terminal and type the following to download the `Auto3dgm` beta version: 
 ```
